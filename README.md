@@ -1,17 +1,31 @@
+<div align="center">
+
 # Hi there, I'm Yohannes Belay Woldeyes 👋
 
 ### Full-Stack Developer | Machine Learning Enthusiast | CS Graduate
-I specialize in building robust, end-to-end applications—from architecting scalable backends in **Java** and **.NET** to crafting modern, responsive frontends with **React** and **Tailwind** and responsive mobile apps with **Flutter** and **Maui**. Beyond the stack, I'm deeply passionate about **Machine Learning** and building intelligent models with **TensorFlow**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yohannes-woldeyes/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:johannes.woldeyes@gmail.com)
+
+I specialize in building robust, end-to-end applications—from architecting scalable backends in **Java** and **.NET** to crafting modern, responsive frontends and mobile apps. 
+
+</div>
 
 ---
+
+## 🚀 Current Focus & Collaboration
 
 - 🔭 **I’m currently working on:** Deepening my Machine Learning expertise by implementing complex models from scratch, guided by O'Reilly's technical literature and advanced research.
 - 🌱 **I’m currently learning:** Mastering **LLMs**, **Generative AI**, and orchestrating scalable environments with **Kubernetes**.
 - 👯 **I’m looking to collaborate on:** Innovative web/mobile apps (**Flutter** & **MAUI**) or robust, scalable backend architectures.
 - 💬 **Ask me about:** Java (Spring Boot), .NET, Python (FastAPI), or getting started with TensorFlow.
-- 📫 **How to reach me:** [johannes.woldeyes@gmail.com](mailto:johannes.woldeyes@gmail.com) | [LinkedIn](https://www.linkedin.com/in/yohannes-woldeyes/)
 - ⚡ **Fun fact:** I believe the best way to understand an algorithm is to build it without a library first.
 
+## 📚 Currently Reading
+- [ ] **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** (O'Reilly)
+- [x] **Clean Code** by Robert C. Martin
+
+---
 
 ## 🛠️ Technical Expertise
 
@@ -36,12 +50,26 @@ I specialize in building robust, end-to-end applications—from architecting sca
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=Flutter&logoColor=white)
+![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat-square&logoColor=white)
 
-### Machine Learning & DevOps
+### Machine Learning & Data Science
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-444876?style=flat-square&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
-> **Specialized in:** SVM, Linear/Logistic Regression, Random Forests, and Deep Learning architectures.
+
+> **Specialized in:** Data Analysis, Regression Models, SVM, Random Forests, and Deep Learning.
+---
+
+## 💻 My Development Environment
+
+- **OS:** Windows 11 & Linux (**Ubuntu**)
+- **IDEs:** VS Code, IntelliJ IDEA, & Visual Studio
+- **Terminals:** Git Bash, Windows Terminal, & Zsh
+- **Tools:** Figma (UI/UX Design), Docker, & Postman
+- **Shells:** PowerShell & Bash scripting
 
 ---
 
@@ -57,10 +85,6 @@ I specialize in building robust, end-to-end applications—from architecting sca
 
 ---
 
-## 💻 My Development Environment
-
-- **OS:** Windows 11 & Linux (**Ubuntu**)
-- **IDEs:** VS Code, IntelliJ IDEA, & Visual Studio
-- **Terminals:** Git Bash, Windows Terminal, & Zsh
-- **Tools:** Figma (UI/UX Design), Docker, & Postman
-- **Shells:** PowerShell & Bash scripting
+## 📫 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yohannes-woldeyes/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johannes.woldeyes@gmail.com)
