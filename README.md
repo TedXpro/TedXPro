@@ -5,7 +5,7 @@
 ### Full-Stack Developer | Machine Learning Enthusiast | CS Graduate
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yohannes-woldeyes/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat-square&logo=firefox-browser&logoColor=white)](https://portfolio-pi-one-90.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat-square&logo=firefox-browser&logoColor=white)](https://yohannes-woldeyes.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:johannes.woldeyes@gmail.com)
 
 I specialize in building robust, end-to-end applications—from architecting scalable backends in **Java** and **.NET** to crafting modern, responsive frontends and mobile apps. 
@@ -88,5 +88,5 @@ I specialize in building robust, end-to-end applications—from architecting sca
 
 ## 📫 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yohannes-woldeyes/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://portfolio-pi-one-90.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://yohannes-woldeyes.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:johannes.woldeyes@gmail.com)
