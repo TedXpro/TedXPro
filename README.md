@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=TedXpro&label=Profile%20Views&color=3B82F6&style=flat-square" alt="Profile Views" />
+<img src="https://hits.sh/github.com/TedXpro/TedXPro.svg?style=flat-square&label=Profile%20Views&color=3B82F6&labelColor=555555" alt="Profile Views" />
 &nbsp;
 <img src="https://img.shields.io/badge/Open_to-Opportunities-10B981?style=flat-square&logo=gitbook&logoColor=white" alt="Status" />
 &nbsp;
