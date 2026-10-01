@@ -1,37 +1,26 @@
 # ============================================================
 # 🐍 Contribution Snake Animation Generator
 # ============================================================
-# This workflow generates an animated SVG snake that "eats"
-# your GitHub contribution graph. It commits the output to
-# the `output` branch of this repository.
-#
-# SETUP:
-# 1. Copy this file to: TedXpro/TedXpro/.github/workflows/snake.yml
-# 2. Push to the main branch
-# 3. Go to Actions tab → "Generate Snake Animation" → Run workflow
-# 4. The first run will create the `output` branch automatically
-# 5. After that, it runs automatically every 6 hours
-#
-# The README references these output files:
-# - https://raw.githubusercontent.com/TedXpro/TedXpro/output/github-snake.svg
-# - https://raw.githubusercontent.com/TedXpro/TedXpro/output/github-snake-dark.svg
+# Generates an animated SVG snake that "eats" your GitHub
+# contribution graph and commits it to the `output` branch.
 # ============================================================
 
 name: Generate Snake Animation
 
 on:
-  # Run every 6 hours to keep the animation fresh
   schedule:
     - cron: "0 */6 * * *"
-  
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
+
+# Grant write access so the action can push to the output branch
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
       - name: Generate Snake SVGs
         uses: Platane/snk@v3
