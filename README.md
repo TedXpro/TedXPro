@@ -120,6 +120,18 @@ core_expertise:
 
 <table align="center" width="100%">
   <tr>
+    <td width="20%" valign="top"><b>🤖 AI & ML</b></td>
+    <td width="80%">
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+      <img src="https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white" />
+      <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
     <td width="20%" valign="top"><b>💻 Languages</b></td>
     <td width="80%">
       <a href="https://skillicons.dev">
@@ -133,18 +145,6 @@ core_expertise:
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=dotnet,nextjs,react,nodejs,spring,flutter,fastapi&theme=dark" alt="Frameworks" />
       </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" valign="top"><b>🤖 AI & ML</b></td>
-    <td width="80%">
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-      <img src="https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white" />
-      <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -164,9 +164,9 @@ core_expertise:
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&border_radius=12&include_all_commits=true&count_private=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&theme=default&hide_border=true&border_radius=12&include_all_commits=true&count_private=true">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&count_private=true" height="180" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&border_radius=12">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&theme=default&hide_border=true&border_radius=12">
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=TedXpro&show_icons=true&hide_border=true&border_radius=12" height="180" />
   </picture>
   &nbsp;&nbsp;
   <picture>
