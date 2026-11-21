@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=620&lines=Machine+Learning+%26+AI+Engineer;Software+Engineer+%26+Systems+Architect;MSc+CS+%26+Business+Tech+%40+IE+University+Madrid;Applied+ML+%7C+RAG+Pipelines+%7C+LLM+Orchestration;Building+Systems+That+Scale.+Engineering+AI+That+Ships." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=760&lines=Machine+Learning+%26+AI+Engineer;Software+Engineer+%26+Systems+Architect;MSc+CS+%26+Business+Tech+%40+IE+University+Madrid;Applied+ML+%7C+RAG+Pipelines+%7C+LLM+Orchestration;Building+Systems+That+Scale.+Engineering+AI+That+Ships." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -48,7 +48,7 @@ education:
 current_focus: Building BirrWise — AI-powered multi-currency financial SaaS
 core_expertise:
   - Scalable Backend Systems (.NET, Go, Node.js)
-  - Applied ML & RAG Pipelines (PyTorch, LangChain, pgvector)
+  - Applied ML & RAG Pipelines (PyTorch, PySpark, FAISS, LangChain, RAGAs, pgvector)
   - Production Fintech & AI Automation (n8n, OCR, LLM Orchestration)
   - Cross-Platform Mobile Engineering (Flutter, Dart)
 ```
@@ -59,7 +59,8 @@ core_expertise:
 
 - 🔭 **Building:** [BirrWise](https://birrwise.com) — Zero-based personal finance SaaS (Next.js, Supabase, Redis)
 - 🎓 **Studying:** Master in CS & Business Technology at IE University, Madrid
-- 🧠 **Research:** Predictive modeling for agriculture & NLP disaster classification pipelines
+- 🧠 **AI Engineering:** Hybrid RAG evaluation (`RAGAs`), agentic retrieval, and NLP/PySpark search systems
+- 🔬 **Benchmarking:** Accuracy vs. latency & cost trade-offs between fine-tuned models and LLM APIs
 - ⚡ **Philosophy:** Clean architecture · Zero reckless technical debt · AI-augmented velocity
 
 ---
@@ -77,22 +78,23 @@ core_expertise:
 
 ---
 
-### 🌾 [Agricultural Crop Yield Prediction Pipeline](https://github.com/TedXpro/MachineLearning)
-> **Ensemble Regression ML Models for Agricultural Planning**
+### 🏛️ [Complaint Intelligence for Retail Banks](https://github.com/TedXpro/bank-complaint-intelligence)
+> **End-to-End NLP, Topic Surge Detection & Agentic RAG Pipeline (60,000 CFPB Complaints)**
 
-- **Predictive Modeling**: Ensemble regression pipeline (Random Forest, Gradient Boosting, XGBoost) forecasting regional harvest yields with **R² = 0.89**.
-- **Technical Report**: Full technical write-up with EDA, feature engineering, model comparison, and cross-validation analysis.
-- **LSTM Modeling**: Deep learning time-series experiments for sequential crop data prediction.
-- **Stack**: `Python` · `Scikit-Learn` · `Pandas` · `NumPy` · `Matplotlib` · `Jupyter`
+- **Campaign & Priority Modeling**: Sentence-embedding + FAISS campaign deduplication (`19/20` human-verified pairs), Word2Vec complaint routing (**82% test accuracy**, outperforming zero-shot GPT-4o-mini `73%` and keyword rules `72%`), and payout-risk scoring (**57% of payouts** caught in the riskiest `20%`).
+- **Surge Detection & Grounded RAG**: Tuned weekly LDA alarms detecting real 2025 banking/CFPB events, paired with a `Qwen/Qwen3-4B` filter-routing RAG explainer evaluated at **0.98 RAGAs faithfulness**.
+- **Stack**: `Python` · `FAISS` · `Word2Vec` · `LDA` · `Qwen3-4B` · `RAGAs` · `Scikit-Learn`
+- 🔗 **Repo**: [TedXpro/bank-complaint-intelligence](https://github.com/TedXpro/bank-complaint-intelligence)
 
 ---
 
-### 🆘 Disaster Event NLP Classifier
-> **Fine-Tuned Transformer Pipeline for Unstructured Disaster Records**
+### 🔍 [RFP Semantic Search Engine](https://github.com/TedXpro/rfp-semantic-search)
+> **Distributed PySpark MLlib Word2Vec Retrieval Across 15,952 EU Procurement Notices**
 
-- **Classification Pipeline**: Fine-tuned Transformer and NLP models achieving **92% F1-score** across 10,000+ unstructured disaster event records.
-- **Text Preprocessing**: Custom tokenization, stopword removal, TF-IDF feature extraction, and contextual embedding pipelines.
-- **Stack**: `PyTorch` · `Hugging Face Transformers` · `Scikit-Learn` · `NLTK`
+- **Scalable Spark Pipeline**: PySpark DataFrame preprocessing (`RegexTokenizer`, `StopWordsRemover`) and Spark MLlib `Word2Vec` embeddings ranking top-50 matching TED procurement notices by cosine similarity.
+- **Retrieval Evaluation**: Achieved **45.2× lift** (`0.62` Precision@50) on cybersecurity queries and **23.8× lift** (`0.78` Precision@50) on cloud infrastructure queries against random baselines.
+- **Stack**: `PySpark` · `Spark MLlib` · `Word2Vec` · `Python` · `NumPy`
+- 🔗 **Repo**: [TedXpro/rfp-semantic-search](https://github.com/TedXpro/rfp-semantic-search)
 
 ---
 
@@ -116,6 +118,20 @@ core_expertise:
 
 ---
 
+### 🧪 Applied AI & Evals Lab
+
+| Project | Focus | Key Signal / Stack |
+| --- | --- | --- |
+| [**agentic-hybrid-rag**](https://github.com/TedXpro/agentic-hybrid-rag) | Hybrid `FAISS + BM25 + Cross-Encoder` RAG with `Qwen3-4B` routing | **0.89** RAGAs faithfulness · **0.87** relevancy |
+| [**finance-rag-evals**](https://github.com/TedXpro/finance-rag-evals) | Source-cited RAG & latency/cost harness over FinanceBench (`150` Q&As) | `Python` · `pytest` · evals *(in progress)* |
+| [**train-or-call-api**](https://github.com/TedXpro/train-or-call-api) | Fine-tuned DistilBERT / TF-IDF vs. LLM APIs on Banking77 (`13k` queries) | `PyTorch` · `FastAPI` · MLflow *(in progress)* |
+| [**job-offer-skill-coder**](https://github.com/TedXpro/job-offer-skill-coder) | LLM agent vs. keyword baselines for coding AI/ML job skills | `Python` · LLM agent evals *(in progress)* |
+| [**IE MSc AI & ML Archive**](https://github.com/TedXpro/Introduction-To-Artificial-Intelligence-and-Machine-Learning-) | Coursework archive: Word2Vec, PySpark, Hybrid RAG & `gpt-4.1` prompt evals | `Python` · `PySpark` · `FAISS` · `OpenAI` |
+| [**Crop Yield Prediction**](https://github.com/TedXpro/MachineLearning) | Ensemble regression (RF, GBM, XGBoost) & LSTM time-series crop yield modeling | **R² = 0.89** · `Scikit-Learn` · `Pandas` |
+| **Disaster Event NLP Classifier** | Fine-tuned Transformer & TF-IDF pipeline over 10k+ unstructured disaster records | **92% F1** · `PyTorch` · `Transformers` |
+
+---
+
 ## 🛠️ Tech Stack
 
 <table align="center" width="100%">
@@ -123,8 +139,12 @@ core_expertise:
     <td width="20%" valign="top"><b>🤖 AI & ML</b></td>
     <td width="80%">
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
       <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
       <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+      <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" />
+      <img src="https://img.shields.io/badge/RAGAs-10B981?style=flat-square" />
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square" />
       <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
       <img src="https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white" />
@@ -187,35 +207,6 @@ core_expertise:
 
 ---
 
-## 📈 Activity & Achievements
-
-<div align="center">
-
-  <!-- GitHub Profile Summary Cards (Reliable, self-hosted via GitHub Actions) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TedXpro&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TedXpro&theme=default">
-    <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TedXpro&theme=default" width="100%" />
-  </picture>
-
-  <br/><br/>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TedXpro&theme=tokyonight&utcOffset=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TedXpro&theme=default&utcOffset=2">
-    <img alt="Productive Time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TedXpro&theme=default&utcOffset=2" height="180" />
-  </picture>
-  &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TedXpro&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TedXpro&theme=default">
-    <img alt="Repos Per Language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TedXpro&theme=default" height="180" />
-  </picture>
-
-</div>
-
----
-
 ## 🏙️ 3D Contribution Graph
 
 <div align="center">
@@ -235,12 +226,14 @@ core_expertise:
 
 <div align="center">
 
-  <!-- Requires GitHub Action — see .github/workflows/snake.yml in TedXpro/TedXpro repo -->
+  <!-- Generated by GitHub Action — see .github/workflows/snake.yml in TedXpro/TedXpro repo -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TedXpro/TedXpro/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TedXpro/TedXpro/output/github-snake.svg">
     <img alt="Snake Animation" src="https://raw.githubusercontent.com/TedXpro/TedXpro/output/github-snake.svg" width="100%" />
   </picture>
+  <br/>
+  <sub>Powered by custom <a href="./scripts/generate_snake.py">Snake AI engine</a> — BFS shortest-path search + tail-reachability safety with 1:1 tail growth.</sub>
 
 </div>
 

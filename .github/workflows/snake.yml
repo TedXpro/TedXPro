@@ -1,8 +1,9 @@
 # ============================================================
-# 🐍 Contribution Snake Animation Generator
+# 🐍 Custom Contribution Snake AI Animation Generator
 # ============================================================
-# Generates an animated SVG snake that "eats" your GitHub
-# contribution graph and commits it to the `output` branch.
+# Runs a BFS shortest-path + tail-safety Snake AI over your
+# GitHub contribution calendar with true 1:1 tail growth, and
+# deploys light/dark SVGs to the `output` branch.
 # ============================================================
 
 name: Generate Snake Animation
@@ -22,13 +23,16 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake SVGs
-        uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github_user_name: TedXpro
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          python-version: "3.12"
+
+      - name: Generate Custom Snake AI SVGs
+        run: python scripts/generate_snake.py --user "${{ github.repository_owner }}" --out-dir dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
